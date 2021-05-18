@@ -8,10 +8,11 @@ namespace Oware {
         private bool isPlayersTurn; // is true when it is player's turn
 
         // create Player with a name and initialized (empty) score house
-        public Player(string name) {
+        public Player(string name) {//IScoreHouse scorehouse(the failed interface)
             this.name = name;
             isPlayersTurn = false;
             scoreHouse = new ScoreHouse();
+           //this.scoreHouse=scorehouse;
         }
 
         public string GetName() {

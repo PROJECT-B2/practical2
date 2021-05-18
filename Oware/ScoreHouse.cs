@@ -3,7 +3,17 @@
 using System.Collections.Generic;
 
 namespace Oware {
-    public class ScoreHouse {
+   /* public interface IScoreHouse
+    {
+         public ScoreHouse() ;
+        
+        public int GetCount();
+
+        public void AddSeed(Seed seed);
+
+        public void Reset();
+    }*/
+    public class ScoreHouse{
         private List<Seed> seedsInHouse;
         public ScoreHouse() {
             seedsInHouse = new List<Seed>();
